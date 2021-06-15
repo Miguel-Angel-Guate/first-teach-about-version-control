@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+header {
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.home{
+    width: 30%;
+}
+.menu {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: burlywood;
+}
+button:hover {
+color: white;
+background-color: burlywood;
+}
+    @media (max-width:320px) {
+    header {
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: space-around;
+    }
+    .homeTitle{
+        font-size: 18px;
+        color:black;
+    }
+    button:hover {
+        color: white;
+        background-color: burlywood;
+        font-size: 17px;
+        }
+        .homeTitle:hover  {
+            color: cadetblue;
+        }
+        .homeTitle {
+            padding-left: 10px;
+        }
+        .menu {
+            padding-right: 10px;
+        }
+        .subTitlePharagraph {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+        }
+        article {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .pharagraph{
+            width: 60%;
+            text-align: justify;
+        }        
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    header {
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+    }
+    .homeTitle{
+        font-size: 18px;
+        color:black;
+    }
+    button:hover {
+        color: white;
+        background-color: burlywood;
+        font-size: 17px;
+        }
+        .homeTitle:hover  {
+            color: cadetblue;
+        }
+        .homeTitle {
+            padding-left: 10px;
+        }
+        .menu {
+            padding-right: 10px;
+        }
+        .subTitlePharagraph {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+        }
+        article {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .pharagraph{
+            width: 60%;
+            text-align: justify;
+        }
+}
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 801px) {
+    header {
+        background-color: blue;
+        display: flex;
+        justify-content: space-around;
+    }
+    .homeTitle{
+        font-size: 18px;
+        color:black;
+    }
+    button:hover {
+        color: white;
+        background-color: burlywood;
+        font-size: 17px;
+        }
+        .homeTitle:hover  {
+            color: cadetblue;
+        }
+        .homeTitle {
+            padding-left: 10px;
+        }
+        .menu {
+            padding-right: 10px;
+        }
+        .subTitlePharagraph {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+        }
+        article {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .pharagraph{
+            width: 60%;
+            text-align: justify;
+        }
+}
